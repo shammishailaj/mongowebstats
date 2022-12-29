@@ -38,6 +38,23 @@ Check out mongowebstat.json:
 - put some short node name to **"name"** field
 - use as many host records as you want!
 
+IMPORTANT: `mongowebstat.json` has been removed from this repository and is deprecated. It would be removed in a future version.
+Till the time a new future version is released, you can use the following sample format for the file `mongowebstat.json` and keep it in root of the project:
+```json
+[
+    {
+        "name": "direct",
+        "host": "localhost",
+        "http": false
+    }
+    ,
+    {
+        "name":"viaHttp",
+        "host": "http://localhost:28017",
+        "http": true
+    }
+]
+```
 
 It is made available under the [Simplified BSD License](http://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29)
 
