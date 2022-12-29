@@ -1,8 +1,10 @@
-It is obsolete, unfortunatelly :(
-=================================
+It is obsolete, unfortunatelly :( Fortunately, its being revived ! :)
+======================================================================
 
-mongowebstat
-============
+Initial code has been copied from the [mongowebstat](https://github.com/MaximBoyarskiy/mongowebstat) repo and is then being modified.
+
+mongowebstats
+=============
 
 - Monitor your mongodb in more convenient way.
 - Monitor as many mongodb hosts as you want!
